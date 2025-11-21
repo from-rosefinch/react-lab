@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import'./app.css';
+import Card from "./day2/Card";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = ()=>{
+  return(
+    //화면에 보여지는 영역 : JSX
+    <div className="card-wrap">
+      <Card file = 'day1' title='day1'/>
+      <Card file = 'day2' title='day2'/>
+      <Card file = 'day3' title='dat3'/>
     </div>
   );
 }
-
 export default App;
