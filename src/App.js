@@ -1,8 +1,9 @@
 import'./app.css';
-// import Card from "./day2/Card";
-// import Parent from './day3/Parent';
-// import ListWrap from './day3/ListWrap';
+import Card from "./day2/Card";
+import Parent from './day3/Parent';
+import ListWrap from './day3/ListWrap';
 import Event from './day4/Event';
+import Style from './day5/Style';
 
 const App = ()=>{
   return(
@@ -16,6 +17,7 @@ const App = ()=>{
       {/* <Parent /> */}
       {/* <ListWrap /> */}
       <Event />
+      {/* <Style/> */}
     </div>
     
   );

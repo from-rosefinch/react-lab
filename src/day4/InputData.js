@@ -8,9 +8,11 @@ const InputData = ({title}) => {
   return (
     <div className="input-data">
         <input 
+            type={type}
             placeholder=" "
-            value={text}
-            onChange={handleChange}
+            value={value}
+            onChange={onChange}
+            onBlur={onBlur}
         />
         <label>{title}</label>
     </div>

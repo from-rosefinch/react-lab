@@ -28,11 +28,10 @@ const ToDoList = () => {
         //     const updated = prev.filter((_,i)=>{ return i !== index });
         //     return updated;
         // });
-        setTodos((prev)=>{
-            return prev.filter((_,i)=>{ return i !== index });
+        setTodos(prev=>prev.filter((_,i)=> i !== index));
             
-        });
-    }
+        };
+    
   return (
     <div className="todo-list">
         <h1>오늘 해야 할 일</h1>
